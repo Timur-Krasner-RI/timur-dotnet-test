@@ -1,8 +1,8 @@
 # timur-dotnet-test
 
-NuGet fixture for Aikido Libraries In Use.
+NuGet fixture for Aikido Libraries In Use. Packages are ones with Root.io Aikido fixes in `as_root_io_cve_info`.
 
-- `Newtonsoft.Json` 12.0.4 (catalog latest `12.0.4-tuxcare.1`)
-- `RestSharp` 110.2.1 (catalog latest `110.2.1-tuxcare.1`)
+- `OpenTelemetry.Api` 1.12.0 (fix `1.12.0.416102`)
+- `System.Security.Cryptography.Xml` 8.0.3 (fix `8.0.3.416103`)
 
-Aikido NuGet builds use `12.0.4.416101` (iteration digits after `41610`, no extra dot).
+Aikido NuGet builds append `41610` plus iteration digits (`1.12.0.416102`), not an extra dotted `.41610.`.

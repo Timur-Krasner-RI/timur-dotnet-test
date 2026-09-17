@@ -6,8 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <!-- Catalog bases: Newtonsoft.Json 12.0.4-tuxcare.1, RestSharp 110.2.1-tuxcare.1 -->
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.4" />
-    <PackageReference Include="RestSharp" Version="110.2.1" />
+    <!-- as_root_io_cve_info nuget: OpenTelemetry.Api 1.12.0.416102, System.Security.Cryptography.Xml 8.0.3.416103 -->
+    <PackageReference Include="OpenTelemetry.Api" Version="1.12.0" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="8.0.3" />
   </ItemGroup>
 </Project>

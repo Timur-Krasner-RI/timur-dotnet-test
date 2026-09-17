@@ -1,6 +1,5 @@
-using Newtonsoft.Json;
-using RestSharp;
+using OpenTelemetry.Trace;
+using System.Security.Cryptography.Xml;
 
-var payload = JsonConvert.SerializeObject(new { ok = true });
-Console.WriteLine(payload);
-_ = new RestClient("https://example.com");
+Console.WriteLine(typeof(TracerProvider).FullName);
+_ = new SignedXml();
